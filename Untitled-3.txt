@@ -1,0 +1,15 @@
+<#Forms css>
+form { max-width: 600px; margin: 1.5rem auto; display: grid; gap: 1rem; }
+.field { display: flex; flex-direction: column; gap: .3rem; border: 0; padding: 0; }
+label, legend { font-weight: 600; }
+fieldset label { font-weight: 400; margin-right: 1rem; }
+input[type=text], input[type=email], input[type=tel], input[type=number], select, textarea {
+  padding: .6rem; border: 1px solid #888; border-radius: 6px; font: inherit; width: 100%; box-sizing: border-box;
+}
+input.invalid, select.invalid, textarea.invalid { border-color: #c0392b; }
+.error { color: #c0392b; font-size: .875rem; min-height: 1em; }
+button, .button { padding: .7rem 1.2rem; border: 0; border-radius: 6px; background: #1a5fb4; color: #fff;
+  font: inherit; cursor: pointer; text-decoration: none; display: inline-block; text-align: center; }
+button:hover, .button:hover { background: #144a8c; }
+#response, #emailPreview { max-width: 600px; margin: 1.5rem auto; padding: 1rem; border: 1px solid #1a5fb4; border-radius: 8px; }
+pre { white-space: pre-wrap; background: #f4f4f4; padding: .8rem; border-radius: 6px; }
